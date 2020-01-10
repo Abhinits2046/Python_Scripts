@@ -1,2 +1,2 @@
-# Python_Scripts
+# python-Scripts
 Python Basic Scripts from 'Hello world' to Desktop applications. 
