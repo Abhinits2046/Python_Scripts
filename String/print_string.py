@@ -21,3 +21,11 @@ print('\n')
 fruit2 = 'apple'
 for letter3 in fruit2 :
     print(letter3)
+    
+# Count letter in a string
+word = 'banana'
+count = 0
+for letter in word:
+    if letter =='a':
+        count = count+1
+print(count)
