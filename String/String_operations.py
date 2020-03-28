@@ -5,7 +5,14 @@ if user == 'apple':
     print("All right it's apple")
 
 if user < 'apple':
-    print("String is less in length than apple")
+    print("String comes befor apple")
 
 if user > 'apple':
-    print("String is greater in length than apple") 
+    print("String comes after \n") 
+
+# String library
+greet = 'HEllo world'
+zap = greet.lower()
+print(zap)
+print("Hello dude".upper())
+
