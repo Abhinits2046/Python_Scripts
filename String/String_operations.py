@@ -7,12 +7,32 @@ if user == 'apple':
 if user < 'apple':
     print("String comes befor apple")
 
-if user > 'apple':
-    print("String comes after \n") 
+if user > 'appl e':
+    print("String comes after \n")
 
 # String library
 greet = 'HEllo world'
 zap = greet.lower()
 print(zap)
-print("Hello dude".upper())
+print("Hello dude".upper() + "\n")
 
+# Searching a String
+fruit = 'banana'
+pos = fruit.find('na')
+print(pos)
+
+aa = fruit.find('z')
+print(aa)
+
+# Search and Replace
+greet = 'Hello abhishek'
+nstr = greet.replace('abhishek', 'Abhishek')
+print(nstr)
+nstr1 = greet.replace('abhishek','Krishna')
+print(nstr1 + "\n")
+
+# String whitespace
+greet = '  Hello abhishek   '
+print(greet.lstrip() + "\n")
+print(greet.rstrip() + "\n")
+print(greet.strip())
