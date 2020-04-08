@@ -36,3 +36,18 @@ greet = '  Hello abhishek   '
 print(greet.lstrip() + "\n")
 print(greet.rstrip() + "\n")
 print(greet.strip())
+
+
+# Prefix
+line = 'Please have a nice day'
+print(line.startswith('Please \n'))
+print(line.startswith('p \n'))
+
+# Parsing and Extracting
+
+data = input("Enter email id and name after a space")
+data.
+firstpos = data.find('@')
+print("Position of @ ", + firstpos)
+host = data[firstpos+1 : -1]
+print("Mail hosting \t" + host)
