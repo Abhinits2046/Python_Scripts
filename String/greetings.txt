@@ -105,4 +105,15 @@ Ensi of Caen
 La sonothèque du Terrier
   for the sound fx :)
 
+Thanks to:
+Patrick Ducrot & Daniel Carré (ENSI of Caen)
+  for their initial support
+  http://www.ducrot.org/
+  http://www.greyc.ensicaen.fr/~dcarre/
+Ensi of Caen
+  for their initial support
+  http://www.ensicaen.fr/
+La sonothèque du Terrier
+  for the sound fx :)
+
 ..and all users who are using and supporting HTTrack!
