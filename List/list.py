@@ -8,7 +8,7 @@ fruits = ['banana','apple','pineapple','grapes','orange']
 print(fruits)
 index = input('Enter the index number')
 print(fruits[int(index)])
-
+print(sorted)
 # use of in operator
 cheeses = ['Cheddar', 'Edam', 'Gouda']
 print('Edan' in cheeses)
@@ -26,3 +26,7 @@ print(range(len(friends)))
 # print the friends
 for i in friends:
     print(i, end = "\t")
+
+    
+
+    
