@@ -31,6 +31,6 @@ print('\n')
 print('Slicing')
 t = ['a','b','c','d','e','f','g','h','i']
 print(t[1:3])
-    
+
 
     
