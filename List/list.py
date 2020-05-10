@@ -26,7 +26,11 @@ print(range(len(friends)))
 # print the friends
 for i in friends:
     print(i, end = "\t")
-
+print('\n')
+# List Slicing
+print('Slicing')
+t = ['a','b','c','d','e','f','g','h','i']
+print(t[1:3])
     
 
     
