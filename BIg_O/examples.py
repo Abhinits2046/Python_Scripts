@@ -50,3 +50,19 @@ comp(lst)
 We can see that as n grows larger the 1 and 10 terms become insignificant
 and the 1/2 term multiplied against n will also not have much of an effect as n goes towards infinity.
 This means the function is simply O(n)!'''
+
+
+# Worst case and best case
+
+def matcher(lst,match):
+    '''
+    Given a list lst, return a boolean indicating if match item is in the list
+    '''
+    
+    for item in lst:
+        if item == match:
+            return True
+    return False
+
+print(matcher(lst,1))
+print(matcher(lst,11))
