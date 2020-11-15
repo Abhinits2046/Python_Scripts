@@ -17,7 +17,7 @@ print("Method1 Index : ",findpos(l,5))
 # The above code will print last find index
 # Below code is for first matching condition
 
-def findpos(l,w):
+def findpos1(l,w):
     (found1, j) = (False,0)
 
     while j < len(l):
@@ -32,4 +32,4 @@ def findpos(l,w):
 
     return(posn)
 
-print("Method 2 Index : ",findpos(l,5))
+print("Method 2 Index : ",findpos1(l,5))
